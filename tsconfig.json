@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true,
+    "strict": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": false,
+    "target": "es2017"
+  },
+  "include": ["src/**/*.js"],
+  "exclude": ["node_modules"],
+  "files": ["globals.d.ts"]
+}

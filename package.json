@@ -1,0 +1,27 @@
+{
+  "name": "tscheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/scrapper.js",
+    "lint": "eslint src",
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch --pretty",
+    "precommit": "npm run lint && npm run tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.0.10"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.7",
+    "@types/node": "^9.6.0",
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "typescript": "^2.8.1"
+  }
+}
