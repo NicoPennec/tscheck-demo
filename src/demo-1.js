@@ -27,3 +27,6 @@ const bar = 333;
 
 bar = 444;        // Error: cannot assign a constant
 bar.buz = 555;    // Error: propety 'buz' doesn't exist
+
+// @ts-ignore
+bar.yolo = "ignore";
